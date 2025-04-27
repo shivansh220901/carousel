@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.bg {
+  height: 30px;
+  width: 30px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+}
+
+.right {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+}
+
+.parent {
+  position: relative;
+  width: 100%;
+  max-height: 400px;
+  /* height: fit-content; */
+}
